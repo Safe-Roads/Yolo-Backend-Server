@@ -11,8 +11,6 @@ env/
 # Environment variables
 .env
 
-# Model weights (optional - large file)
-models/*.pt
 
 # OS files
 .DS_Store
