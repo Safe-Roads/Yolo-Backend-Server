@@ -29,8 +29,8 @@ def detect_potholes(image_path: str):
     try:
         results = model.predict(
             source=image_path,
-            conf=0.15,   # 🔥 key fix
-            imgsz=640,
+            conf=0.5,   # 🔥 key fix
+            imgsz=416,
             device="cpu",
             verbose=False
         )
